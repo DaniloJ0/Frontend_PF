@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   gap: 12%;
+  padding-top: 10px;
 }
 
 .logo {
@@ -18,7 +19,10 @@
 }
 
 
-
+.sidebar .logo p {
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .imgLogo {
   width: 30%;
   margin-left: 2%;

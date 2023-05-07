@@ -10,7 +10,7 @@ function SideBar() {
     <div className="sidebar">
       <div className="logo">
         <img className="imgLogo" src={imagen} alt="" />
-        <p>Accidentes</p>
+        <p>Analitica de Accidentes</p>
       </div>
       <SideBarList />
     </div>

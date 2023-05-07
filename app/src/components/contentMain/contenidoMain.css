@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 1rem;
+  }
+  
+.row-squad {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    gap: 1rem;
+    padding: 5px 20px;
+  }
+
+
+  .row-graph {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 1rem;
+    padding: 5px 20px;
+  }
+  
+  .col {
+    border: 1px solid black;
+  }
+  
+  .col1 {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.col2 {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.col3 {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.col4 {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.col3-4 {
+    flex-grow: 2.8;
+    max-width: 60%;
+}
+.col1-4 {
+    flex-grow: 2;
+    height: 100%;
+  }
