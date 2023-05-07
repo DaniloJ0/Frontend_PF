@@ -1,0 +1,46 @@
+.col {
+  width: 25%;
+  min-width: 200px;
+  height: 200px;
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 7%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px; 
+}
+
+
+.amount{
+  position: relative;
+  bottom: 10px;
+  min-width: 90px;
+}
+
+.amount p:nth-child(1), p:nth-child(3){
+  color: gray;
+}
+
+
+.amount p:nth-child(3){
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.amount p:nth-child(2){
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.log_squad{
+  min-width: 50px;
+  /* width: 20%  */
+}
+

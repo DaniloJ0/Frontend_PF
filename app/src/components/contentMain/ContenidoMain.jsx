@@ -1,7 +1,8 @@
 import React from "react";
 import Chart from "chart.js/auto";
-import { Line } from "react-chartjs-2";
+import { Line, Bar } from "react-chartjs-2";
 import "./contenidoMain.css";
+import SquadItem from "../squadItem/SquadItem";
 const labels = ["January", "February", "March", "April", "May", "June"];
 
 const data = {
@@ -21,16 +22,18 @@ function ContenidoMain() {
   return (
     <div className="container">
       <div className="row-squad">
-        <div className="col col1">Columna 1</div>
-        <div className="col col2">Columna 2</div>
-        <div className="col col3">Columna 3</div>
-        <div className="col col4">Columna 4</div>
+        <SquadItem />
+        <SquadItem />
+        <SquadItem />
+        <SquadItem />
       </div>
       <div className="row-graph">
-        <div className="col col3-4">
-            <Line data={data} />
+        <div className="col-Graphs col3-4">
+          <Line data={data} />
         </div>
-        <div className="col col1-4">Columna 1-4</div>
+        <div className="col-Graphs col1-4">
+        <Bar data={data} />
+        </div>
       </div>
     </div>
   );
