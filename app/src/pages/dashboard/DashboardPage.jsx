@@ -5,10 +5,10 @@ import SideBar from "../../components/sidebar/SideBar.jsx";
 
 function DashboardPage() {
   return (
-    <div className="container">
+   <>
         <SideBar />
         <Main />
-      </div>
+   </>
   )
 }
 

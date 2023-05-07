@@ -9,11 +9,11 @@ function SideBarList() {
     <div className="sidebarList">  
         <ul>
             <li><a href="/"><img src={graphIcon} alt="" /> <span>Dashboard</span></a></li>
-            <li><a href="#"><img src={userIcon} alt="" /> <span>Usuario</span></a></li>
-            <li><a href="#"><img src={infoIcon} alt="" /> <span>Información</span></a></li>
-            <li><a href="#"><img src={graphIcon} alt="" /> <span>Dashboard</span></a></li>
-            <li><a href="#"><img src={userIcon} alt="" /> <span>Usuario</span></a></li>
-            <li><a href="#"><img src={infoIcon} alt="" /> <span>Información</span></a></li>
+            <li><a href="/informacion/"><img src={infoIcon} alt="" /> <span>Información</span></a></li>
+            <li><a href="/"><img src={userIcon} alt="" /> <span>Usuario</span></a></li>
+            <li><a href="/"><img src={graphIcon} alt="" /> <span>Dashboard</span></a></li>
+            <li><a href="/"><img src={userIcon} alt="" /> <span>Usuario</span></a></li>
+            <li><a href="/"><img src={infoIcon} alt="" /> <span>Información</span></a></li>
         </ul>
     </div>
   )
