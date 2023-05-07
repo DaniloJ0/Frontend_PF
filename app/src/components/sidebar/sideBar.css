@@ -1,0 +1,14 @@
+.sidebar {
+  background-color: #1c2536;
+  color: #fff;
+  width: 200px;
+  text-align: center
+}
+
+/* Agregamos estilos para el sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
