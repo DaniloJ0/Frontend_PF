@@ -1,12 +1,15 @@
 const allDate = {
     homeLine: {
-        labels : ["January", "February", "March", "April", "May", "June"],
-        data: [0, 10, 5, 2, 20, 30, 45],
+        labels : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+        data: [6236, 6521, 6390, 5899, 5646, 3284, 4700, 3681],
     },
     amount: {
-        heridos: "4,520",
-        muertos: "1,520",
+        heridos: "14,465",
+        muertos: "306",
+        atropellos: "2,014",
+        choques: "11,905",
     }
 };
 
 export default allDate;
+

@@ -13,7 +13,7 @@ function SquadItem({data}) {
             <p> En los últimos 8 años <span><img src={data.porcentaje < 0 ? iconArrowDown : iconArrowUp} alt="" /></span></p>
           </div>
           <div className="log_squad">
-            <img src={logo} alt="" />
+            <img src={require(`../../img/${data.logoName}`)} alt="" />
           </div>
         </div>
   )
