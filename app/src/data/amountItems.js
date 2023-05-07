@@ -4,22 +4,22 @@ const dataFull = [
   {
     cantidad: full_data.amount.heridos,
     titulo: "Cantidad de heridos",
-    porcentaje: "20%",
+    porcentaje: -45,
   },
    {
     cantidad: full_data.amount.muertos,
     titulo: "Cantidad de muertos",
-    porcentaje: "20%",
+    porcentaje: 21,
   },
   {
     cantidad: full_data.amount.heridos,
     titulo: "Cantidad de atropellos",
-    porcentaje: "20%",
+    porcentaje: 11,
   },
   {
     cantidad: full_data.amount.muertos,
     titulo: "Cantidad de choques",
-    porcentaje: "20%",
+    porcentaje: -4,
   },
 ];
 

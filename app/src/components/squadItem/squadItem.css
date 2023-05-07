@@ -44,3 +44,7 @@
   /* width: 20%  */
 }
 
+.amount p span img {
+  position: relative;
+  top: 2.5px;
+}
