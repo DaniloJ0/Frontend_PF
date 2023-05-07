@@ -1,38 +1,27 @@
 import React from "react";
-import Chart from "chart.js/auto";
-import { Line, Bar } from "react-chartjs-2";
 import "./contenidoMain.css";
 import SquadItem from "../squadItem/SquadItem";
-const labels = ["January", "February", "March", "April", "May", "June"];
+import HomeChartLine from "../../data/Charts/HomeChartLine.jsx";
+import HomeChatPie from "../../data/Charts/HomeChatPie";
+import dataForItems from "../../data/amountItems.js";
 
-const data = {
-  labels: labels,
-  datasets: [
-    {
-      label: "My First dataset",
-      backgroundColor: "rgb(255, 99, 132)",
-      borderColor: "rgb(255, 99, 132)",
-      data: [0, 10, 5, 2, 20, 30, 45],
-    },
-  ],
-};
-// {/* <Line data={data} /> */}
 
 function ContenidoMain() {
   return (
     <div className="container">
       <div className="row-squad">
-        <SquadItem />
-        <SquadItem />
-        <SquadItem />
-        <SquadItem />
+        {
+          dataForItems.map(item => {
+            return <SquadItem data={item} />
+          })
+        }
       </div>
       <div className="row-graph">
         <div className="col-Graphs col3-4">
-          <Line data={data} />
+          <HomeChartLine />
         </div>
         <div className="col-Graphs col1-4">
-        <Bar data={data} />
+          <HomeChatPie />
         </div>
       </div>
     </div>

@@ -2,12 +2,12 @@ import React from 'react'
 import './squadItem.css'
 import logo from '../../img/auto_64.png'
 
-function SquadItem() {
+function SquadItem({data}) {
   return (
     <div className="col">
           <div className="amount">
-            <p>Cantidad</p>
-            <p>$ 24K</p>
+            <p>{data.titulo}</p>
+            <p>{data.cantidad}</p>
             <p> En los últimos 7 años </p>
           </div>
           <div className="log_squad">

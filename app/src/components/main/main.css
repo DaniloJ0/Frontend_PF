@@ -20,5 +20,7 @@
 
 .lineMain{
   /* margin-bottom: 10px; */
-  opacity: 0.3;
+  opacity: 0.08;
+  border: 1px solid #000;
+  margin-bottom: 20px;
 }
