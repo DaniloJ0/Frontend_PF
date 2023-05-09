@@ -14,13 +14,13 @@ const dataFull = [
     logoName: "muerte_64.png",
   },
   {
-    cantidad: full_data.amount.heridos,
+    cantidad: full_data.amount.atropellos,
     titulo: "Cantidad de atropellos",
     porcentaje: 11,
     logoName: "atropello_64.png",
   },
   {
-    cantidad: full_data.amount.muertos,
+    cantidad: full_data.amount.choques,
     titulo: "Cantidad de choques",
     porcentaje: -4,
     logoName: "auto_64.png",
