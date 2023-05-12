@@ -6,12 +6,12 @@
 
 .row-squad {
   display: flex;
-  overflow-x: auto;
+  /* flex-wrap: wrap; */
   width: 100%;
   max-height: 90%;
   gap: 25px;
   margin-top: 10px;
-
+  margin-bottom: 20px;
 }
 
 .row-graph {
@@ -37,4 +37,11 @@
   width: 100%;
   max-width: 35%;
   padding: 1rem;
+}
+
+
+@media screen and (max-width: 1395px) {
+  .row-squad{
+    flex-wrap: wrap;
+  }
 }

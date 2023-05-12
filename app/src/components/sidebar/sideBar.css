@@ -18,12 +18,26 @@
   gap: 5px;
 }
 
-
 .sidebar .logo p {
   font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .imgLogo {
   width: 30%;
   margin-left: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    /* display: none; */
+    color: #fff;
+    width: 60px;
+  }
+  .sidebar .logo p {
+    display: none;
+  }
+
+  .imgLogo {
+    width: 80%;
+  }
 }
