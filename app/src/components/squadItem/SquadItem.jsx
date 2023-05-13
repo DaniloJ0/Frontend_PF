@@ -1,6 +1,5 @@
 import React from 'react'
 import './squadItem.css'
-import logo from '../../img/auto_64.png'
 import iconArrowUp from '../../img/flecha-hacia-arriba_16.png';
 import iconArrowDown from '../../img/flecha-hacia-abajo_16.png';
 

@@ -31,6 +31,11 @@
   font-size: 15px;
 }
 
+.sidebarList ul li:hover {
+  transform: translateX(-5px);
+  transition: transform 0.2s ease-in-out;
+}
+
 @media screen and (max-width: 768px) {
   .sidebarList ul li a span {
     display: none;

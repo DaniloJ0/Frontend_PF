@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./contenidoMain.css";
 import SquadItem from "../squadItem/SquadItem";
 import AccidenteYear from "../../data/Charts/AccidenteYear.jsx";
@@ -14,31 +15,51 @@ function ContenidoMain() {
   return (
     <div className="container">
       <div className="row-squad">
-        {dataForItems.map((item) => {
+        {dataForItems.bloque_1.map((item) => {
           return <SquadItem data={item} />;
         })}
       </div>
       <div className="row-graph">
-        <div className="col-Graphs col3-4-1">
-          <AccidenteYear />
+        <div className="col-Graphs col-1">
+          <Link to="/informacion#">
+            <AccidenteYear />
+          </Link>
         </div>
-        <div className="col-Graphs col3-4">
-          <AccHoraDia />
+        <div className="col-Graphs col-2">
+          <Link to="/informacion#AccHoraDia">
+            <AccHoraDia />
+          </Link>
         </div>
-        <div className="col-Graphs col3-4">
-          <AccTipoVehiculo />
+        <div className="col-5">
+          {dataForItems.bloque_2.map((item) => {
+            return <SquadItem data={item} />;
+          })}
         </div>
-        <div className="col-Graphs col3-4">
-          <HeridosTipoAcc />
+        <div className="col-Graphs col-3">
+          <Link to="/informacion#AccTipoVehiculo">
+            <AccTipoVehiculo />
+          </Link>
         </div>
-        <div className="col-Graphs col3-4">
-          <InfraccionesTipo />
+        <div className="col-Graphs col-4">
+          <Link to="/informacion#HeridosTipoAcc">
+            <HeridosTipoAcc />
+          </Link>
         </div>
-        <div className="col-Graphs col3-4">
-          <MuerteTipoAcc />
+        
+        <div className="col-Graphs col-6">
+          <Link to="/informacion#InfraccionesTipo">
+            <InfraccionesTipo />
+          </Link>
         </div>
-        <div className="col-Graphs col3-4">
-          <CantidadInfraccion/>
+        <div className="col-Graphs col-7">
+          <Link to="/informacion#MuerteTipoAcc">
+            <MuerteTipoAcc />
+          </Link>
+        </div>
+        <div className="col-Graphs col-">
+          <Link to="/informacion#CantidadInfraccion">
+            <CantidadInfraccion />
+          </Link>
         </div>
       </div>
     </div>

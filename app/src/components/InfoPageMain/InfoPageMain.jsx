@@ -21,7 +21,7 @@ function InfoPageMain() {
       <hr />
       <div className="graphsInfo">
         <div className="p-1">
-          <div className="graph1">
+          <div className="graph1" id="AccHoraDia">
             <AccHoraDia />
           </div>
           <p>
@@ -47,12 +47,12 @@ function InfoPageMain() {
             importancia de ceder el paso a los peatones, lo que podría reducir
             la cantidad de atropellos.
           </p>
-          <div className="graph2">
+          <div className="graph2" id="HeridosTipoAcc">
             <HeridosTipoAcc />
           </div>
         </div>
         <div className="p-1">
-          <div className="graph1">
+          <div className="graph1" id="MuerteTipoAcc">
             <MuerteTipoAcc />
           </div>
           <p>
@@ -77,7 +77,7 @@ function InfoPageMain() {
       </div>
       <div className="secondSection">
         <div className="p-1">
-          <div className="graph1">
+          <div className="graph1" id="AccTipoVehiculo"> 
             <AccTipoVehiculo />
           </div>
           <p>
@@ -93,10 +93,10 @@ function InfoPageMain() {
         </div>
 
         <div className="p-3">
-          <div className="graph3">
+          <div className="graph3" id="InfraccionesTipo">
             <InfraccionesTipo />
           </div>
-          <div className="graph3">
+          <div className="graph3" id="CantidadInfraccion">
             <CantidadInfraccion />
           </div>
         </div>
@@ -121,7 +121,7 @@ function InfoPageMain() {
             velocidad, tales como cámaras de velocidad, radares de velocidad,
             controles más frecuentes, entre otros.
           </p>
-          <div className="graph1">
+          <div className="graph1" id="">
             <img src={graph1} alt="" />
           </div>
           <p>

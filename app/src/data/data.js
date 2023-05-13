@@ -8,9 +8,18 @@ const allDate = {
       "Valor promedio de accidentes por hora del dia en totalidad": 1658.333,
     },
     segundo_bloque: {
-      "Cantidad de vehiculos accidentados": "84,256",
-      "Cantidad de infracciones": "681,440",
-      "Promedio de infracciones por año": "85,555",
+      vehiculos: {
+        cantidad:"84,256",
+        titulo: "Cantidad de vehiculos accidentados",
+      },
+      infracciones: {
+        cantidad: "681,440",
+        titulo: "Cantidad de infracciones",
+      },
+      infracciones_year: {
+        cantidad: "85,555",
+        titulo: "Promedio de infracciones por año",
+      },
     },
   },
   herido_tipo_accidente: {
