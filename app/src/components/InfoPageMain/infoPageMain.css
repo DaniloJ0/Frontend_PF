@@ -22,53 +22,68 @@ hr{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 3rem;
   margin-top: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+.p-1{
+  display: flex;
+  gap: 2rem;
+  height: 30vh;
+  width: 100%;
+}
+
+
+.p-1 > p {
+  flex-grow: 1;
+}
+
+.graph-1 {
+  width: 400px;
+  flex-grow: 2;
+  /* height: 100%; */
+  /* border-radius: 15px; */
+  /* box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px; */
+}
+
+.p-2{
+  display: flex;
+  gap: 2rem;
+  height: 30vh;
+  width: 100%;
+}
+
+
+.p-2 > p {
+  justify-content: center;
+}
+
+.graph-2 {
+  width: 400px;
+  /* height: 100%; */
+  /* border-radius: 15px; */
+  /* box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px; */
+}
+
+
+.contentInfoGeneral{
+  font-size: 20px;
+  color: rgb(112, 111, 111);
+}
+
+
+.sectiones{
   margin-bottom: 50px;
 }
 
-
-.info-1, .info-2 {
+.p-3{
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
+  height: 30vh;
+  width: 100%;
+  justify-content: center;
 }
-
-
-
-.graph-1 , .graph-1 img{
-  height: 100%;
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
-}
-
-
-.text-1 {
-  flex-grow: 2;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
-}
-
-.text-2{
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
-}
-
-.graph-2 , .graph-2 img {
-  height: 100%;
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
-}
-
-
-
-
-
-
-
-
-
 
 
 
