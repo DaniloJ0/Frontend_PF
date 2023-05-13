@@ -1,6 +1,6 @@
 import React from 'react'
 import Chart from "chart.js/auto";
-import { Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import  infoChart from "../data.js";
 
 const data = {
@@ -8,16 +8,18 @@ const data = {
   datasets: [
     {
       label: infoChart.accidentes_hora.titulo,
-      backgroundColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgb(148, 103, 189)",
       borderColor: "rgb(255, 99, 132)",
       data: infoChart.accidentes_hora.data.valores,
     },
   ],
+  
 };
+
 
 function AccHoraDia() {
   return (
-    <Line data={data} />
+    <Bar data={data} width={500} height={300}/>
   )
 }
 

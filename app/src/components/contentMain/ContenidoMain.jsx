@@ -3,12 +3,12 @@ import "./contenidoMain.css";
 import SquadItem from "../squadItem/SquadItem";
 import AccidenteYear from "../../data/Charts/AccidenteYear.jsx";
 import AccHoraDia from "../../data/Charts/AccHoraDia.jsx";
-import AccVehiculoYear from "../../data/Charts/AccVehiculoYear.jsx";
 import AccTipoVehiculo from "../../data/Charts/AccTipoVehiculo.jsx";
 import HeridosTipoAcc from "../../data/Charts/HeridosTipoAcc.jsx";
 import InfraccionesTipo from "../../data/Charts/InfraccionesTipo.jsx";
 import MuerteTipoAcc from "../../data/Charts/MuerteTipoAcc.jsx";
 import dataForItems from "../../data/amountItems.js";
+import CantidadInfraccion from "../../data/Charts/CantidadInfraccion";
 
 function ContenidoMain() {
   return (
@@ -29,9 +29,6 @@ function ContenidoMain() {
           <AccTipoVehiculo />
         </div>
         <div className="col-Graphs col3-4">
-          <AccVehiculoYear />
-        </div>
-        <div className="col-Graphs col3-4">
           <HeridosTipoAcc />
         </div>
         <div className="col-Graphs col3-4">
@@ -39,6 +36,9 @@ function ContenidoMain() {
         </div>
         <div className="col-Graphs col3-4">
           <MuerteTipoAcc />
+        </div>
+        <div className="col-Graphs col3-4">
+          <CantidadInfraccion/>
         </div>
       </div>
     </div>

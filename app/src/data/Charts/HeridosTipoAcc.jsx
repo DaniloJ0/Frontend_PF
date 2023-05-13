@@ -1,6 +1,6 @@
 import React from 'react'
 import Chart from "chart.js/auto";
-import { Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import  infoChart from "../data.js";
 
 const data = {
@@ -8,7 +8,7 @@ const data = {
   datasets: [
     {
       label: infoChart.herido_tipo_accidente.titulo,
-      backgroundColor: "rgb(255, 99, 132)",
+      backgroundColor: "rgb(255, 196, 0)",
       borderColor: "rgb(255, 99, 132)",
       data: infoChart.herido_tipo_accidente.data.valores,
     },
@@ -16,7 +16,7 @@ const data = {
 };
 function HeridosTipoAcc() {
   return (
-    <Line data={data} />
+    <Bar data={data} width={500} height={300}/>
   )
 }
 

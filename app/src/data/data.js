@@ -83,13 +83,6 @@ const allDate = {
       ],
     },
   },
-  vehiculos_accidentados_anio: {
-    titulo: "Cantidad de vehiculos accidentados por año",
-    data: {
-      labels: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
-      valores: [95278, 107660, 99734, 83741, 98171, 59526, 56915, 80415],
-    },
-  },
   accidentes_tipo_vehiculo: {
     titulo: "Cantidad de accidentes por tipo de vehiculo",
     data: {
@@ -109,6 +102,13 @@ const allDate = {
         "Volarse semaforo",
       ],
       valores: [55253, 194036, 367352, 3440, 5113, 56246],
+    },
+  },
+  cantidad_infracciones: {
+    titulo: "Cantidad de infracciones",
+    data: {
+      labels: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+      valores: [95278, 107660, 99734, 83741, 98171, 59526, 56915, 80415],
     },
   },
 };

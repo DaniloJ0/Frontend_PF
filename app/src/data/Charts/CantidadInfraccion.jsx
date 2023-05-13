@@ -4,19 +4,19 @@ import { Bar } from "react-chartjs-2";
 import infoChart from "../data.js";
 
 const data = {
-  labels: infoChart.accidentes_tipo_vehiculo.data.labels,
+  labels: infoChart.cantidad_infracciones.data.labels,
   datasets: [
     {
-      label: infoChart.accidentes_tipo_vehiculo.titulo,
-      backgroundColor: "rgb(22, 160, 133)",
+      label: infoChart.cantidad_infracciones.titulo,
+      backgroundColor: "rgb(155, 89, 182)",
       borderColor: "rgb(255, 99, 132)",
-      data: infoChart.accidentes_tipo_vehiculo.data.valores,
+      data: infoChart.cantidad_infracciones.data.valores,
     },
   ],
 };
 
-function AccTipoVehiculo() {
+function CantidadInfraccion() {
   return <Bar data={data} width={500} height={300}/>;
 }
 
-export default AccTipoVehiculo;
+export default CantidadInfraccion;

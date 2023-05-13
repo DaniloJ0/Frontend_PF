@@ -17,7 +17,7 @@ const data = {
 
 function AccidenteYear() {
     return (
-        <Line data={data} />
+        <Line data={data} width={500} height={300}/>
     )
 }
 
