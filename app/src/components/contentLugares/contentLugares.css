@@ -1,0 +1,37 @@
+.contenido {
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 20px 20px 20px 45px;
+}
+
+.sectiones {
+  display: flex;
+  flex-direction: column;
+}
+
+.graphStart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.graphs-1 {
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
+}
+
+.sect-1 > p {
+  width: 50%;
+}
+
+
+.sect-2{
+    margin-top: 40px;
+}

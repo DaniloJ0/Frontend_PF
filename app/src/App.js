@@ -3,6 +3,7 @@ import DashboardPage from "./pages/dashboard/DashboardPage";
 import "./App.css";
 import InfoPage from "./pages/informacion/InfoPage.jsx";
 import Sugerencias from "./pages/sugerencias/Sugerencias";
+import OtrosLugares from "./pages/lugares/OtrosLugares";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<DashboardPage />} />
           <Route path="/informacion" element={<InfoPage/>}/>
           <Route path="/sugerencias" element={<Sugerencias/>}/>
+          <Route path="/otroslugares" element={<OtrosLugares />}/>
         </Routes>
       </Router>
     </div>

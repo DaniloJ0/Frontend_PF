@@ -14,7 +14,7 @@ function SideBarList() {
             <li><a href="/"><img src={graphIcon} alt="" /> <span>Dashboard</span></a></li>
             <li><a href="/informacion#tipoAcc"><img src={accidenteIcon} alt="" /> <span>Por accidentes</span></a></li>
             <li><a href="/informacion#analisisAcc"><img src={vehiculoIcon} alt="" /> <span>Por vehículos </span></a></li>
-            <li><a href="/"><img src={cityIcon} alt="" /> <span>Otras ciudades</span></a></li>
+            <li><a href="/otroslugares"><img src={cityIcon} alt="" /> <span>Otros lugares</span></a></li>
             <li><a href="/sugerencias"><img src={sugerenciasIcon} alt="" /> <span>Sugerencias</span></a></li>
             <li><a href="/informacion/"><img src={infoIcon} alt="" /> <span>Resultados</span></a></li>
         </ul>
