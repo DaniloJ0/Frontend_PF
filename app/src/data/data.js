@@ -1,5 +1,5 @@
 const allDate = {
-   amount: {
+  amount: {
     primer_bloque: {
       heridos: "14,465",
       muertos: "306",
@@ -9,7 +9,7 @@ const allDate = {
     },
     segundo_bloque: {
       vehiculos: {
-        cantidad:"84,256",
+        cantidad: "84,256",
         titulo: "Cantidad de vehiculos accidentados",
       },
       infracciones: {
@@ -118,6 +118,48 @@ const allDate = {
     data: {
       labels: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
       valores: [95278, 107660, 99734, 83741, 98171, 59526, 56915, 80415],
+    },
+  },
+  heridos_tipo_dia: {
+    titulo: "Heridos Diurnos/Nocturnos",
+    data: {
+      labels: ["Diurno", "Nocturno"],
+      valores: [12253, 5798],
+    },
+  },
+  muertos_tipo_dia: {
+    titulo: "Muertos Diurnos/Nocturnos",
+    data: {
+      labels: ["Diurno", "Nocturno"],
+      valores: [292, 270],
+    },
+  },
+  accidentes_categoria: {
+    titulo: "Proporcion de accidentes por categoria",
+    data: {
+      labels: ["Solo daños", "Con Muertos", "Con Heridos"],
+      valores: [18051, 19475, 562],
+    },
+  },
+  heridos_geometria_via: {
+    titulo: "Cantidad de heridos por geometria de via",
+    data: {
+      labels: ["Curva derecha", "Curva izquierda", "Recta"],
+      valores: [2115, 1967, 7024],
+    },
+  },
+  muertos_geometria_via: {
+    titulo: "Cantidad de muertos por geometria de via",
+    data: {
+      labels: ["Curva derecha", "Curva izquierda", "Recta"],
+      valores: [402, 354, 1252],
+    },
+  },
+  promedio_heridos_meteorologia: {
+    titulo: "Promedio de heridos por condiciones metereologicas",
+    data: {
+      labels: ["Granizo", "Lluvia", "Niebla", "Normal", "Seca", "Sol", "Viento"],
+      valores: [1, 0.519076, 0.4, 0.60472, 0.636571, 0.687962, 0.494845],
     },
   },
 };

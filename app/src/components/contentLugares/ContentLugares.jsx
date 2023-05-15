@@ -3,6 +3,14 @@ import "../InfoPageMain/infoPageMain.css";
 import lupaIcon from "../../img/lupa_24.png";
 import AccHoraDia from "../../data/Charts/AccHoraDia";
 import "./contentLugares.css";
+import HeridosDiurnoNocturno from "../../data/Charts/Lugares/HeridosDiurnoNocturno";
+import MuertosDiurnoNocturno from "../../data/Charts/Lugares/MuertosDiurnoNocturno";
+import PromHeridosMeteorologico from "../../data/Charts/Lugares/PromHeridosMeteorologico";
+import MuertosGeometria from "../../data/Charts/Lugares/MuertosGeometria";
+import HeridosGeometria from "../../data/Charts/Lugares/HeridosGeometria";
+import AccidenteCatgMuertes from "../../data/Charts/Lugares/AccidenteCatgMuertes";
+import imgEnvigado_1 from "../../img/img_charts/img_envigado1.png";
+import imgEnvigado_2 from "../../img/img_charts/img_envigado2.png";
 
 function ContentLugares() {
   return (
@@ -16,16 +24,16 @@ function ContentLugares() {
       <hr />
       <p>
         Estos datos fueron extraidos de toda Colombia desde el año 2012 a la
-        actualidad
+        actualidad.
       </p>
       <div className="contenido">
         <section className="sectiones">
           <div className="graphStart">
             <div className="graphs-1">
-              <AccHoraDia />
+              <HeridosDiurnoNocturno />
             </div>
             <div className="graphs-1">
-              <AccHoraDia />
+              <MuertosDiurnoNocturno />
             </div>
           </div>
           <p>
@@ -58,7 +66,7 @@ function ContentLugares() {
         </section>
         <section className="p-1">
           <div className="graph1">
-            <AccHoraDia />
+            <PromHeridosMeteorologico />
           </div>
           <p>
             El granizo representa un factor de riesgo significativo en la
@@ -88,10 +96,10 @@ function ContentLugares() {
         <section className="sectiones sect-2">
           <div className="graphStart">
             <div className="graphs-1">
-              <AccHoraDia />
+              <MuertosGeometria />
             </div>
             <div className="graphs-1">
-              <AccHoraDia />
+              <HeridosGeometria />
             </div>
           </div>
           <p>
@@ -117,6 +125,14 @@ function ContentLugares() {
             atención a los detalles de la geometría puede contribuir a la
             reducción de accidentes graves y a mejorar la seguridad vial.
           </p>
+          <div className="graphStart">
+            <div className="graphs-1">
+              <AccidenteCatgMuertes/>
+            </div>
+            <div className="graphs-1">
+              <HeridosGeometria />
+            </div>
+          </div>
         </section>
         <p className="contentInfo">
           Análisis de accidentalidades en Envigado
@@ -125,10 +141,10 @@ function ContentLugares() {
         <section className="sectiones sect-2">
           <div className="graphStart">
             <div className="graphs-1">
-              <AccHoraDia />
+              <img src={imgEnvigado_1} alt="" />
             </div>
             <div className="graphs-1">
-              <AccHoraDia />
+              <img src={imgEnvigado_2} alt="" />
             </div>
           </div>
           <p>

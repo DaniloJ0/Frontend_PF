@@ -4,13 +4,13 @@ import { Bar } from "react-chartjs-2";
 import  infoChart from "../../data.js";
 
 const data = {
-  labels: infoChart.accidentes_hora.data.labels,
+  labels: infoChart.promedio_heridos_meteorologia.data.labels,
   datasets: [
     {
-      label: infoChart.accidentes_hora.titulo,
-      backgroundColor: "rgb(148, 103, 189)",
+      label: infoChart.promedio_heridos_meteorologia.titulo,
+      backgroundColor: "#036564",
       borderColor: "rgb(255, 99, 132)",
-      data: infoChart.accidentes_hora.data.valores,
+      data: infoChart.promedio_heridos_meteorologia.data.valores,
     },
   ],
   

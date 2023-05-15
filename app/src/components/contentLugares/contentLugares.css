@@ -11,6 +11,7 @@
 .sectiones {
   display: flex;
   flex-direction: column;
+  gap: 3.5rem;
 }
 
 .graphStart{
@@ -25,6 +26,9 @@
   padding: 25px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.11) 0px 5px 10px;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
 }
 
 .sect-1 > p {
@@ -34,4 +38,9 @@
 
 .sect-2{
     margin-top: 40px;
+}
+
+
+.sect-2 > p {
+ margin-bottom: 20px;
 }

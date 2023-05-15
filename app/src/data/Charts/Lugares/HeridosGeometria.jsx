@@ -3,13 +3,13 @@ import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 import  infoChart from "../../data.js";
 const data = {
-  labels: infoChart.accidentes_hora.data.labels,
+  labels: infoChart.heridos_geometria_via.data.labels,
   datasets: [
     {
-      label: infoChart.accidentes_hora.titulo,
-      backgroundColor: "rgb(148, 103, 189)",
+      label: infoChart.heridos_geometria_via.titulo,
+      backgroundColor: "#e6a37a",
       borderColor: "rgb(255, 99, 132)",
-      data: infoChart.accidentes_hora.data.valores,
+      data: infoChart.heridos_geometria_via.data.valores,
     },
   ],
   

@@ -1,15 +1,15 @@
 import React from 'react'
 import Chart from "chart.js/auto";
-import { Bar } from "react-chartjs-2";
+import { Pie } from "react-chartjs-2";
 import  infoChart from "../../data.js";
 const data = {
-  labels: infoChart.accidentes_hora.data.labels,
+  labels: infoChart.accidentes_categoria.data.labels,
   datasets: [
     {
-      label: infoChart.accidentes_hora.titulo,
-      backgroundColor: "rgb(148, 103, 189)",
-      borderColor: "rgb(255, 99, 132)",
-      data: infoChart.accidentes_hora.data.valores,
+      label: infoChart.accidentes_categoria.titulo,
+      backgroundColor: ['#77477e', '#4c5e91', '#a82a53'],
+      // borderColor: "#fff",
+      data: infoChart.accidentes_categoria.data.valores,
     },
   ],
   
@@ -18,7 +18,7 @@ const data = {
 
 function AccidenteCatgMuertes() {
   return (
-    <Bar data={data} width={500} height={300}/>
+    <Pie data={data} width={300} height={300}/>
   )
 }
 
