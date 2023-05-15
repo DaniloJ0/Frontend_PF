@@ -162,6 +162,13 @@ const allDate = {
       valores: [1, 0.519076, 0.4, 0.60472, 0.636571, 0.687962, 0.494845],
     },
   },
+  heridos_terreno: {
+    titulo: "Numero de heridos por terreno",
+    data: {
+      labels: ["Escarpado", "Montañoso", "Ondulado", "Plano"],
+      valores: [302, 3380, 1921, 5503], 
+    },
+  },
 };
 
 export default allDate;

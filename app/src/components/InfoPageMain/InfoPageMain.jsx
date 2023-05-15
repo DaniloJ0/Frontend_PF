@@ -16,7 +16,7 @@ function InfoPageMain() {
         <img src={lupaIcon} alt="" />
       </div>
       <div className="contentInfo" id="tipoAcc">
-        Analisis por tipos de accidentes
+        Analisis por tipos de accidentes en Barranquilla
       </div>
       <hr />
       <div className="graphsInfo">

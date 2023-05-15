@@ -1,7 +1,6 @@
 import React from "react";
 import "../InfoPageMain/infoPageMain.css";
 import lupaIcon from "../../img/lupa_24.png";
-import AccHoraDia from "../../data/Charts/AccHoraDia";
 import "./contentLugares.css";
 import HeridosDiurnoNocturno from "../../data/Charts/Lugares/HeridosDiurnoNocturno";
 import MuertosDiurnoNocturno from "../../data/Charts/Lugares/MuertosDiurnoNocturno";
@@ -11,6 +10,7 @@ import HeridosGeometria from "../../data/Charts/Lugares/HeridosGeometria";
 import AccidenteCatgMuertes from "../../data/Charts/Lugares/AccidenteCatgMuertes";
 import imgEnvigado_1 from "../../img/img_charts/img_envigado1.png";
 import imgEnvigado_2 from "../../img/img_charts/img_envigado2.png";
+import HeridosTerreno from "../../data/Charts/Lugares/HeridosTerreno";
 
 function ContentLugares() {
   return (
@@ -130,7 +130,7 @@ function ContentLugares() {
               <AccidenteCatgMuertes/>
             </div>
             <div className="graphs-1">
-              <HeridosGeometria />
+              <HeridosTerreno />
             </div>
           </div>
         </section>
