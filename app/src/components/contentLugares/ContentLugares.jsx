@@ -141,10 +141,10 @@ function ContentLugares() {
         <section className="sectiones sect-2">
           <div className="graphStart">
             <div className="graphs-1">
-              <img src={imgEnvigado_1} alt="" />
+              <img src={imgEnvigado_1} alt="gravedad_semana" />
             </div>
             <div className="graphs-1">
-              <img src={imgEnvigado_2} alt="" />
+              <img src={imgEnvigado_2} alt="gravedad_semana_calor" />
             </div>
           </div>
           <p>

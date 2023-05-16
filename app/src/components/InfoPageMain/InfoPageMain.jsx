@@ -20,8 +20,8 @@ function InfoPageMain() {
       </div>
       <hr />
       <div className="graphsInfo">
-        <div className="p-1">
-          <div className="graph1" id="AccHoraDia">
+        <div className="p-1" id="accHoraDia">
+          <div className="graph1" >
             <AccHoraDia />
           </div>
           <p>
@@ -34,7 +34,7 @@ function InfoPageMain() {
             el control del tráfico podria promover una mayor seguridad vial.
           </p>
         </div>
-        <div className="p-2">
+        <div className="p-2" id="heridosTipoAcc">
           <p>
             La gráfica nos muestra que el tipo de accidente más común es el
             choque, seguido por el atropello. Esta información puede ser útil
@@ -47,12 +47,12 @@ function InfoPageMain() {
             importancia de ceder el paso a los peatones, lo que podría reducir
             la cantidad de atropellos.
           </p>
-          <div className="graph2" id="HeridosTipoAcc">
+          <div className="graph2" >
             <HeridosTipoAcc />
           </div>
         </div>
-        <div className="p-1">
-          <div className="graph1" id="MuerteTipoAcc">
+        <div className="p-1" id="muerteTipoAcc">
+          <div className="graph1">
             <MuerteTipoAcc />
           </div>
           <p>
@@ -72,12 +72,12 @@ function InfoPageMain() {
       <div className="sectiones" id="analisisAcc">
         <div className="contentInfoGeneral">
           Analisis Tipo de vehículos y medidas
-        </div>
         <hr />
+        </div>
       </div>
       <div className="secondSection">
-        <div className="p-1">
-          <div className="graph1" id="AccTipoVehiculo"> 
+        <div className="p-1" id="accTipoVehiculo">
+          <div className="graph1" > 
             <AccTipoVehiculo />
           </div>
           <p>
@@ -93,10 +93,10 @@ function InfoPageMain() {
         </div>
 
         <div className="p-3">
-          <div className="graph3" id="InfraccionesTipo">
+          <div className="graph3" id="infraccionesTipo">
             <InfraccionesTipo />
           </div>
-          <div className="graph3" id="CantidadInfraccion">
+          <div className="graph3" id="cantidadInfraccion">
             <CantidadInfraccion />
           </div>
         </div>
@@ -121,7 +121,7 @@ function InfoPageMain() {
             velocidad, tales como cámaras de velocidad, radares de velocidad,
             controles más frecuentes, entre otros.
           </p>
-          <div className="graph1" id="">
+          <div className="graph1">
             <img src={graph1} alt="" />
           </div>
           <p>

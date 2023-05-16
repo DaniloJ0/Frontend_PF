@@ -36,28 +36,28 @@ function ContenidoMain() {
           })}
         </div>
         <div className="col-Graphs col-3">
-          <Link to="/informacion#AccTipoVehiculo">
+          <Link to="/informacion#accTipoVehiculo">
             <AccTipoVehiculo />
           </Link>
         </div>
         <div className="col-Graphs col-4">
-          <Link to="/informacion#HeridosTipoAcc">
+          <Link to="/informacion#heridosTipoAcc">
             <HeridosTipoAcc />
           </Link>
         </div>
         
         <div className="col-Graphs col-6">
-          <Link to="/informacion#InfraccionesTipo">
+          <Link to="/informacion#infraccionesTipo">
             <InfraccionesTipo />
           </Link>
         </div>
         <div className="col-Graphs col-7">
-          <Link to="/informacion#MuerteTipoAcc">
+          <Link to="/informacion#muerteTipoAcc">
             <MuerteTipoAcc />
           </Link>
         </div>
         <div className="col-Graphs col-">
-          <Link to="/informacion#CantidadInfraccion">
+          <Link to="/informacion#cantidadInfraccion">
             <CantidadInfraccion />
           </Link>
         </div>
