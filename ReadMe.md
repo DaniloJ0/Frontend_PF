@@ -3,4 +3,4 @@
 This project is build in React 
 
 
-![dashboard](https://user-images.githubusercontent.com/45516306/236967646-36c61dfe-ca3e-4581-b6dd-ef1a6faa4d12.png)
+![bg-project](https://github.com/DaniloJ0/Frontend_PF/assets/45516306/63efd35e-4f73-4db1-8778-d6ed476bbbad)
