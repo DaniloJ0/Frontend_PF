@@ -29,10 +29,10 @@ function ContentLugares() {
       <div className="contenido">
         <section className="sectiones">
           <div className="graphStart">
-            <div className="graphs-1">
+            <div className="graphs-1" id="HeridosDiurnoNocturno">
               <HeridosDiurnoNocturno />
             </div>
-            <div className="graphs-1">
+            <div className="graphs-1" id="MuertosDiurnoNocturno">
               <MuertosDiurnoNocturno />
             </div>
           </div>
@@ -65,7 +65,7 @@ function ContentLugares() {
           </p>
         </section>
         <section className="p-1">
-          <div className="graph1">
+          <div className="graph1" id="PromHeridosMeteorologico">
             <PromHeridosMeteorologico />
           </div>
           <p>
@@ -95,10 +95,10 @@ function ContentLugares() {
         </p>
         <section className="sectiones sect-2">
           <div className="graphStart">
-            <div className="graphs-1">
+            <div className="graphs-1" id="MuertosGeometria">
               <MuertosGeometria />
             </div>
-            <div className="graphs-1">
+            <div className="graphs-1" id="HeridosGeometria">
               <HeridosGeometria />
             </div>
           </div>
@@ -126,10 +126,10 @@ function ContentLugares() {
             reducción de accidentes graves y a mejorar la seguridad vial.
           </p>
           <div className="graphStart">
-            <div className="graphs-1">
+            <div className="graphs-1" id="AccidenteCatgMuertes">
               <AccidenteCatgMuertes/>
             </div>
-            <div className="graphs-1">
+            <div className="graphs-1" id="HeridosTerreno">
               <HeridosTerreno />
             </div>
           </div>

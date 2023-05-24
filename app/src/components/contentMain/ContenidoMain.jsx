@@ -13,6 +13,12 @@ import CantidadInfraccion from "../../data/Charts/CantidadInfraccion";
 import AccDiurnoNocturno from "../../data/Charts/Lugares/AccDiurnoNocturno";
 import HeridosYear from "../../data/Charts/HeridosYear";
 import HeridosMes from "../../data/Charts/HeridosMes";
+import AccidenteCatgMuertes from "../../data/Charts/Lugares/AccidenteCatgMuertes";
+import HeridosDiurnoNocturno from "../../data/Charts/Lugares/HeridosDiurnoNocturno";
+import HeridosTerreno from "../../data/Charts/Lugares/HeridosTerreno";
+import HeridosGeometria from "../../data/Charts/Lugares/HeridosGeometria";
+import MuertosDiurnoNocturno from "../../data/Charts/Lugares/MuertosDiurnoNocturno";
+import PromHeridosMeteorologico from "../../data/Charts/Lugares/PromHeridosMeteorologico";
 
 function ContenidoMain() {
   return (
@@ -65,18 +71,53 @@ function ContenidoMain() {
           </Link>
         </div>
         <div className="col-Graphs col-">
-          <Link to="/informacion#cantidadInfraccion">
+          <Link to="/informacion#AccDiurnoNocturno">
             <AccDiurnoNocturno />
           </Link>
         </div>
         <div className="col-Graphs col-7">
-          <Link to="/informacion#cantidadInfraccion">
+          <Link to="/informacion#HeridosYear">
             <HeridosYear />
           </Link>
         </div>
         <div className="col-Graphs col-7">
-          <Link to="/informacion#cantidadInfraccion">
+          <Link to="/informacion#HeridosMes">
             <HeridosMes />
+          </Link>
+        </div>
+        <div className="col-Graphs col-">
+          <Link to="/informacion#AccDiurnoNocturno">
+            <AccDiurnoNocturno />
+          </Link>
+        </div>
+        <div className="col-Graphs col-7">
+          <Link to="/otroslugares#AccidenteCatgMuertes">
+            <AccidenteCatgMuertes />
+          </Link>
+        </div>
+        <div className="col-Graphs col-">
+          <Link to="/otroslugares#HeridosTerreno">
+            <HeridosTerreno />
+          </Link>
+        </div>
+        <div className="col-Graphs col-7">
+          <Link to="/otroslugares#HeridosGeometria">
+            <HeridosGeometria />
+          </Link>
+        </div>
+        <div className="col-Graphs col-">
+          <Link to="/otroslugares#MuertosDiurnoNocturno">
+            <MuertosDiurnoNocturno />
+          </Link>
+        </div>
+        <div className="col-Graphs col-7">
+          <Link to="/otroslugares#HeridosDiurnoNocturno">
+            <HeridosDiurnoNocturno />
+          </Link>
+        </div>
+        <div className="col-Graphs col-7">
+          <Link to="/otroslugares#PromHeridosMeteorologico">
+            <PromHeridosMeteorologico/>
           </Link>
         </div>
       </div>
