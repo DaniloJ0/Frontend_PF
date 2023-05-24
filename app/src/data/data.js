@@ -169,6 +169,27 @@ const allDate = {
       valores: [302, 3380, 1921, 5503], 
     },
   },
+  heridos_year:{
+    titulo: "Numero de heridos por año",
+    data: {
+      labels: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+      valores: [1083, 1012,1242,2541,2217,1543,2088,2739], 
+    },
+  },
+  heridos_mes:{
+    titulo: "Numero de heridos por mes",
+    data: {
+      labels: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+      valores: [1129, 1182,1291,956,1164,1009,1117,1280,1260,1367,1326,1404], 
+    },
+  },
+  acc_diurno_nocturno:{
+    titulo: "Numero de accidentes en horarios diurno y nocturno",
+    data: {
+      labels: ["Diurno", "Nocturno"],
+      valores: [27032, 11165], 
+    },
+  }
 };
 
 export default allDate;

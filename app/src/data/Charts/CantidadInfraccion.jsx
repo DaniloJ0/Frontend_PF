@@ -8,7 +8,7 @@ const data = {
   datasets: [
     {
       label: infoChart.cantidad_infracciones.titulo,
-      backgroundColor: "rgb(155, 89, 182)",
+      backgroundColor: "rgb(155, 8, 182)",
       borderColor: "rgb(255, 99, 132)",
       data: infoChart.cantidad_infracciones.data.valores,
     },

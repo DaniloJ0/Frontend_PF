@@ -10,6 +10,9 @@ import InfraccionesTipo from "../../data/Charts/InfraccionesTipo.jsx";
 import MuerteTipoAcc from "../../data/Charts/MuerteTipoAcc.jsx";
 import dataForItems from "../../data/amountItems.js";
 import CantidadInfraccion from "../../data/Charts/CantidadInfraccion";
+import AccDiurnoNocturno from "../../data/Charts/Lugares/AccDiurnoNocturno";
+import HeridosYear from "../../data/Charts/HeridosYear";
+import HeridosMes from "../../data/Charts/HeridosMes";
 
 function ContenidoMain() {
   return (
@@ -45,7 +48,7 @@ function ContenidoMain() {
             <HeridosTipoAcc />
           </Link>
         </div>
-        
+
         <div className="col-Graphs col-6">
           <Link to="/informacion#infraccionesTipo">
             <InfraccionesTipo />
@@ -59,6 +62,21 @@ function ContenidoMain() {
         <div className="col-Graphs col-">
           <Link to="/informacion#cantidadInfraccion">
             <CantidadInfraccion />
+          </Link>
+        </div>
+        <div className="col-Graphs col-">
+          <Link to="/informacion#cantidadInfraccion">
+            <AccDiurnoNocturno />
+          </Link>
+        </div>
+        <div className="col-Graphs col-7">
+          <Link to="/informacion#cantidadInfraccion">
+            <HeridosYear />
+          </Link>
+        </div>
+        <div className="col-Graphs col-7">
+          <Link to="/informacion#cantidadInfraccion">
+            <HeridosMes />
           </Link>
         </div>
       </div>
