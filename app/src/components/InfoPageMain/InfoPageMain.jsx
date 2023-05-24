@@ -2,6 +2,7 @@ import React from "react";
 import "./infoPageMain.css";
 import lupaIcon from "../../img/lupa_24.png";
 import graph1 from "../../img/img_charts/Cluster.png";
+import mlearning from "../../img/img_charts/algoritmos.png";
 import AccHoraDia from "../../data/Charts/AccHoraDia";
 import HeridosTipoAcc from "../../data/Charts/HeridosTipoAcc";
 import MuerteTipoAcc from "../../data/Charts/MuerteTipoAcc";
@@ -21,7 +22,7 @@ function InfoPageMain() {
       <hr />
       <div className="graphsInfo">
         <div className="p-1" id="accHoraDia">
-          <div className="graph1" >
+          <div className="graph1">
             <AccHoraDia />
           </div>
           <p>
@@ -47,7 +48,7 @@ function InfoPageMain() {
             importancia de ceder el paso a los peatones, lo que podría reducir
             la cantidad de atropellos.
           </p>
-          <div className="graph2" >
+          <div className="graph2">
             <HeridosTipoAcc />
           </div>
         </div>
@@ -72,12 +73,12 @@ function InfoPageMain() {
       <div className="sectiones" id="analisisAcc">
         <div className="contentInfoGeneral">
           Analisis Tipo de vehículos y medidas
-        <hr />
+          <hr />
         </div>
       </div>
       <div className="secondSection">
         <div className="p-1" id="accTipoVehiculo">
-          <div className="graph1" > 
+          <div className="graph1">
             <AccTipoVehiculo />
           </div>
           <p>
@@ -144,6 +145,19 @@ function InfoPageMain() {
             pero tambien debido a que es uno de los vehiculos a la par que las
             motocicletas en la que obtencion de la licensia no requiero mucha
             expertisia por pare de los conductores.
+          </p>
+          <div className="graph1">
+            <img src={mlearning} alt="" />
+          </div>
+          <p>
+            Esta grafica es la comparación de diferentes modelos de machine
+            learning. Los modelos usados fueron Logistic Regression (LR):
+            0.929392 , Linear Discriminant Analysis (LDA): 0.923134 , K-Nearest
+            Neighbors (KNN): 0.793488, Classification and Regression Trees
+            (CART): 0.901231 , Gaussian Naive Bayes (NB): 0.925023, ver que el
+            modelo que mejor se ajusta a los datos es el de Logistic Regression,
+            por lo que se usara este modelo para predecir los gravedad de las
+            victimas de los accidentes.
           </p>
         </div>
       </div>
