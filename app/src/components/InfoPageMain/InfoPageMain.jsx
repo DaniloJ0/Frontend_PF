@@ -151,11 +151,20 @@ function InfoPageMain() {
           </div>
           <p>
             Esta grafica es la comparación de diferentes modelos de machine
-            learning. Los modelos usados fueron Logistic Regression (LR):
-            0.929392 , Linear Discriminant Analysis (LDA): 0.923134 , K-Nearest
-            Neighbors (KNN): 0.793488, Classification and Regression Trees
-            (CART): 0.901231 , Gaussian Naive Bayes (NB): 0.925023, ver que el
-            modelo que mejor se ajusta a los datos es el de Logistic Regression,
+            learning. Los modelos usados fueron: 
+            <br></br>
+            Logistic Regression (LR):0.929392 
+            <br></br>
+            Linear Discriminant Analysis (LDA): 0.923134 
+            <br></br>
+            K-NearestNeighbors (KNN): 0.793488
+            <br></br>
+             Classification and Regression Trees(CART): 0.901231 
+             <br></br>
+             Gaussian Naive Bayes (NB): 0.925023 
+             <br></br>
+             <br></br>
+            Con esta informacion se puede observar que el modelo que mejor se ajusta a los datos es el de Logistic Regression,
             por lo que se usara este modelo para predecir los gravedad de las
             victimas de los accidentes.
           </p>
